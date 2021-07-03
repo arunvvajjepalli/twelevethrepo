@@ -9,7 +9,7 @@ http://www.mulesoft.org/schema/mule/http http://www.mulesoft.org/schema/mule/htt
 	</http:listener-config>
 	<flow name="pomFlow" doc:id="5f26b4a1-6133-469d-80cb-fd32a922ea32" >
 		<http:listener doc:name="Listener" doc:id="6ee7cfcb-7f40-42a0-aa02-0760a58bea91" config-ref="HTTP_Listener_config" path="pom"/>
-		<set-payload value='#["welcome to mulesoft"]' doc:name="Set Payload" doc:id="4a7cc946-f793-4b23-a9bc-76b27507c65a" />
+		<set-payload value='#["welcome to mulesoft world telangana"]' doc:name="Set Payload" doc:id="4a7cc946-f793-4b23-a9bc-76b27507c65a" />
 		<logger level="INFO" doc:name="Logger" doc:id="b5fc9894-8529-4cb0-a25b-ca9e10cf68a9" message="#[payload]"/>
 	</flow>
 </mule>
